@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['0', '1']
+
+roboflow:
+  workspace: mehdis-workspace-22ts0
+  project: helmet-person-detection-zacmv
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mehdis-workspace-22ts0/helmet-person-detection-zacmv/dataset/4
