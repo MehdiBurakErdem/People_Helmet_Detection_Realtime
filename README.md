@@ -25,6 +25,7 @@ The current model achieves approximately 0.87 mAP50 on the test dataset and can 
 
 ## Dataset
 The dataset was created using a combination of manual and semi-automatic annotation workflows in Roboflow.
+It includes a small number of synthetic training samples used to improve class diversity for rare helmet conditions. All samples were reviewed and annotated in the same YOLO format as the rest of the dataset.
 The current detection model contains two classes:
 * person
 * helmet
